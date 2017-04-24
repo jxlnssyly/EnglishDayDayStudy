@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C769CC1EAB2928000F2C35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769CB1EAB2928000F2C35 /* main.m */; };
+		C9C769CF1EAB2928000F2C35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769CE1EAB2928000F2C35 /* AppDelegate.m */; };
+		C9C769D21EAB2928000F2C35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769D11EAB2928000F2C35 /* ViewController.m */; };
+		C9C769D51EAB2928000F2C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C769D31EAB2928000F2C35 /* Main.storyboard */; };
+		C9C769D71EAB2928000F2C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C769D61EAB2928000F2C35 /* Assets.xcassets */; };
+		C9C769DA1EAB2928000F2C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C769D81EAB2928000F2C35 /* LaunchScreen.storyboard */; };
+		C9C769E51EAB2928000F2C35 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769E41EAB2928000F2C35 /* _____Tests.m */; };
+		C9C769F01EAB2928000F2C35 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769EF1EAB2928000F2C35 /* _____UITests.m */; };
+		C9C76A1C1EAB2A62000F2C35 /* eng1.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C769FE1EAB2A62000F2C35 /* eng1.json */; };
+		C9C76A1D1EAB2A62000F2C35 /* eng10.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C769FF1EAB2A62000F2C35 /* eng10.json */; };
+		C9C76A1E1EAB2A62000F2C35 /* eng11.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A001EAB2A62000F2C35 /* eng11.json */; };
+		C9C76A1F1EAB2A62000F2C35 /* eng12.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A011EAB2A62000F2C35 /* eng12.json */; };
+		C9C76A201EAB2A62000F2C35 /* eng13.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A021EAB2A62000F2C35 /* eng13.json */; };
+		C9C76A211EAB2A62000F2C35 /* eng14.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A031EAB2A62000F2C35 /* eng14.json */; };
+		C9C76A221EAB2A62000F2C35 /* eng15.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A041EAB2A62000F2C35 /* eng15.json */; };
+		C9C76A231EAB2A62000F2C35 /* eng16.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A051EAB2A62000F2C35 /* eng16.json */; };
+		C9C76A241EAB2A62000F2C35 /* eng17.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A061EAB2A62000F2C35 /* eng17.json */; };
+		C9C76A251EAB2A62000F2C35 /* eng18.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A071EAB2A62000F2C35 /* eng18.json */; };
+		C9C76A261EAB2A62000F2C35 /* eng19.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A081EAB2A62000F2C35 /* eng19.json */; };
+		C9C76A271EAB2A62000F2C35 /* eng2.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A091EAB2A62000F2C35 /* eng2.json */; };
+		C9C76A281EAB2A62000F2C35 /* eng20.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A0A1EAB2A62000F2C35 /* eng20.json */; };
+		C9C76A291EAB2A62000F2C35 /* eng21.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A0B1EAB2A62000F2C35 /* eng21.json */; };
+		C9C76A2A1EAB2A62000F2C35 /* eng22.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A0C1EAB2A62000F2C35 /* eng22.json */; };
+		C9C76A2B1EAB2A62000F2C35 /* eng23.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A0D1EAB2A62000F2C35 /* eng23.json */; };
+		C9C76A2C1EAB2A62000F2C35 /* eng24.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A0E1EAB2A62000F2C35 /* eng24.json */; };
+		C9C76A2D1EAB2A62000F2C35 /* eng25.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A0F1EAB2A62000F2C35 /* eng25.json */; };
+		C9C76A2E1EAB2A62000F2C35 /* eng26.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A101EAB2A62000F2C35 /* eng26.json */; };
+		C9C76A2F1EAB2A62000F2C35 /* eng27.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A111EAB2A62000F2C35 /* eng27.json */; };
+		C9C76A301EAB2A62000F2C35 /* eng28.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A121EAB2A62000F2C35 /* eng28.json */; };
+		C9C76A311EAB2A62000F2C35 /* eng29.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A131EAB2A62000F2C35 /* eng29.json */; };
+		C9C76A321EAB2A62000F2C35 /* eng3.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A141EAB2A62000F2C35 /* eng3.json */; };
+		C9C76A331EAB2A62000F2C35 /* eng30.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A151EAB2A62000F2C35 /* eng30.json */; };
+		C9C76A341EAB2A62000F2C35 /* eng4.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A161EAB2A62000F2C35 /* eng4.json */; };
+		C9C76A351EAB2A62000F2C35 /* eng5.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A171EAB2A62000F2C35 /* eng5.json */; };
+		C9C76A361EAB2A62000F2C35 /* eng6.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A181EAB2A62000F2C35 /* eng6.json */; };
+		C9C76A371EAB2A62000F2C35 /* eng7.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A191EAB2A62000F2C35 /* eng7.json */; };
+		C9C76A381EAB2A62000F2C35 /* eng8.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A1A1EAB2A62000F2C35 /* eng8.json */; };
+		C9C76A391EAB2A62000F2C35 /* eng9.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A1B1EAB2A62000F2C35 /* eng9.json */; };
+		C9C76A3D1EAB2A80000F2C35 /* WordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A3B1EAB2A80000F2C35 /* WordViewController.m */; };
+		C9C76A3E1EAB2A80000F2C35 /* WordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A3C1EAB2A80000F2C35 /* WordViewController.xib */; };
+		C9C76A421EAB3140000F2C35 /* WeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A401EAB3140000F2C35 /* WeekViewController.m */; };
+		C9C76A431EAB3140000F2C35 /* WeekViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A411EAB3140000F2C35 /* WeekViewController.xib */; };
+		C9C76A4D1EAB3A95000F2C35 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C9C76A451EAB3A95000F2C35 /* LICENSE */; };
+		C9C76A4E1EAB3A95000F2C35 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A461EAB3A95000F2C35 /* README.md */; };
+		C9C76A4F1EAB3A95000F2C35 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A491EAB3A95000F2C35 /* NSObject+YYModel.m */; };
+		C9C76A501EAB3A95000F2C35 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A4B1EAB3A95000F2C35 /* YYClassInfo.m */; };
+		C9C76A531EAB3AB1000F2C35 /* WordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A521EAB3AB1000F2C35 /* WordModel.m */; };
+		C9C76A561EAB3DA0000F2C35 /* LyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A551EAB3DA0000F2C35 /* LyNavigationController.m */; };
+		C9C76A591EAB3DBE000F2C35 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A581EAB3DBE000F2C35 /* UIBarButtonItem+Extension.m */; };
+		C9C76A5C1EAB3DD5000F2C35 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A5B1EAB3DD5000F2C35 /* UIImage+Extension.m */; };
+		C9C76A5F1EAB3E5F000F2C35 /* UIView+YP.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A5E1EAB3E5F000F2C35 /* UIView+YP.m */; };
+		C9C76A621EAB3EBB000F2C35 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76A611EAB3EBB000F2C35 /* UINavigationController+FDFullscreenPopGesture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C769E11EAB2928000F2C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C769BF1EAB2928000F2C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C769C61EAB2928000F2C35;
+			remoteInfo = "天天学英语";
+		};
+		C9C769EC1EAB2928000F2C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C769BF1EAB2928000F2C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C769C61EAB2928000F2C35;
+			remoteInfo = "天天学英语";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9C769C71EAB2928000F2C35 /* 天天学英语.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "天天学英语.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C769CB1EAB2928000F2C35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C769CD1EAB2928000F2C35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9C769CE1EAB2928000F2C35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9C769D01EAB2928000F2C35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9C769D11EAB2928000F2C35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9C769D41EAB2928000F2C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9C769D61EAB2928000F2C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9C769D91EAB2928000F2C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9C769DB1EAB2928000F2C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C769E01EAB2928000F2C35 /* 天天学英语Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "天天学英语Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C769E41EAB2928000F2C35 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		C9C769E61EAB2928000F2C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C769EB1EAB2928000F2C35 /* 天天学英语UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "天天学英语UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C769EF1EAB2928000F2C35 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		C9C769F11EAB2928000F2C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C769FE1EAB2A62000F2C35 /* eng1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng1.json; sourceTree = "<group>"; };
+		C9C769FF1EAB2A62000F2C35 /* eng10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng10.json; sourceTree = "<group>"; };
+		C9C76A001EAB2A62000F2C35 /* eng11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng11.json; sourceTree = "<group>"; };
+		C9C76A011EAB2A62000F2C35 /* eng12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng12.json; sourceTree = "<group>"; };
+		C9C76A021EAB2A62000F2C35 /* eng13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng13.json; sourceTree = "<group>"; };
+		C9C76A031EAB2A62000F2C35 /* eng14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng14.json; sourceTree = "<group>"; };
+		C9C76A041EAB2A62000F2C35 /* eng15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng15.json; sourceTree = "<group>"; };
+		C9C76A051EAB2A62000F2C35 /* eng16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng16.json; sourceTree = "<group>"; };
+		C9C76A061EAB2A62000F2C35 /* eng17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng17.json; sourceTree = "<group>"; };
+		C9C76A071EAB2A62000F2C35 /* eng18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng18.json; sourceTree = "<group>"; };
+		C9C76A081EAB2A62000F2C35 /* eng19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng19.json; sourceTree = "<group>"; };
+		C9C76A091EAB2A62000F2C35 /* eng2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng2.json; sourceTree = "<group>"; };
+		C9C76A0A1EAB2A62000F2C35 /* eng20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng20.json; sourceTree = "<group>"; };
+		C9C76A0B1EAB2A62000F2C35 /* eng21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng21.json; sourceTree = "<group>"; };
+		C9C76A0C1EAB2A62000F2C35 /* eng22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng22.json; sourceTree = "<group>"; };
+		C9C76A0D1EAB2A62000F2C35 /* eng23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng23.json; sourceTree = "<group>"; };
+		C9C76A0E1EAB2A62000F2C35 /* eng24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng24.json; sourceTree = "<group>"; };
+		C9C76A0F1EAB2A62000F2C35 /* eng25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng25.json; sourceTree = "<group>"; };
+		C9C76A101EAB2A62000F2C35 /* eng26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng26.json; sourceTree = "<group>"; };
+		C9C76A111EAB2A62000F2C35 /* eng27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng27.json; sourceTree = "<group>"; };
+		C9C76A121EAB2A62000F2C35 /* eng28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng28.json; sourceTree = "<group>"; };
+		C9C76A131EAB2A62000F2C35 /* eng29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng29.json; sourceTree = "<group>"; };
+		C9C76A141EAB2A62000F2C35 /* eng3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng3.json; sourceTree = "<group>"; };
+		C9C76A151EAB2A62000F2C35 /* eng30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng30.json; sourceTree = "<group>"; };
+		C9C76A161EAB2A62000F2C35 /* eng4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng4.json; sourceTree = "<group>"; };
+		C9C76A171EAB2A62000F2C35 /* eng5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng5.json; sourceTree = "<group>"; };
+		C9C76A181EAB2A62000F2C35 /* eng6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng6.json; sourceTree = "<group>"; };
+		C9C76A191EAB2A62000F2C35 /* eng7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng7.json; sourceTree = "<group>"; };
+		C9C76A1A1EAB2A62000F2C35 /* eng8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng8.json; sourceTree = "<group>"; };
+		C9C76A1B1EAB2A62000F2C35 /* eng9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eng9.json; sourceTree = "<group>"; };
+		C9C76A3A1EAB2A80000F2C35 /* WordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordViewController.h; sourceTree = "<group>"; };
+		C9C76A3B1EAB2A80000F2C35 /* WordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordViewController.m; sourceTree = "<group>"; };
+		C9C76A3C1EAB2A80000F2C35 /* WordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordViewController.xib; sourceTree = "<group>"; };
+		C9C76A3F1EAB3140000F2C35 /* WeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekViewController.h; sourceTree = "<group>"; };
+		C9C76A401EAB3140000F2C35 /* WeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekViewController.m; sourceTree = "<group>"; };
+		C9C76A411EAB3140000F2C35 /* WeekViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeekViewController.xib; sourceTree = "<group>"; };
+		C9C76A451EAB3A95000F2C35 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C9C76A461EAB3A95000F2C35 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C9C76A481EAB3A95000F2C35 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		C9C76A491EAB3A95000F2C35 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		C9C76A4A1EAB3A95000F2C35 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		C9C76A4B1EAB3A95000F2C35 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		C9C76A4C1EAB3A95000F2C35 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		C9C76A511EAB3AB1000F2C35 /* WordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordModel.h; sourceTree = "<group>"; };
+		C9C76A521EAB3AB1000F2C35 /* WordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordModel.m; sourceTree = "<group>"; };
+		C9C76A541EAB3DA0000F2C35 /* LyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyNavigationController.h; sourceTree = "<group>"; };
+		C9C76A551EAB3DA0000F2C35 /* LyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyNavigationController.m; sourceTree = "<group>"; };
+		C9C76A571EAB3DBE000F2C35 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		C9C76A581EAB3DBE000F2C35 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		C9C76A5A1EAB3DD5000F2C35 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		C9C76A5B1EAB3DD5000F2C35 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		C9C76A5D1EAB3E5F000F2C35 /* UIView+YP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YP.h"; sourceTree = "<group>"; };
+		C9C76A5E1EAB3E5F000F2C35 /* UIView+YP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YP.m"; sourceTree = "<group>"; };
+		C9C76A601EAB3EBB000F2C35 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C9C76A611EAB3EBB000F2C35 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C769C41EAB2928000F2C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C769DD1EAB2928000F2C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C769E81EAB2928000F2C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C769BE1EAB2928000F2C35 = {
+			isa = PBXGroup;
+			children = (
+				C9C769C91EAB2928000F2C35 /* 天天学英语 */,
+				C9C769E31EAB2928000F2C35 /* 天天学英语Tests */,
+				C9C769EE1EAB2928000F2C35 /* 天天学英语UITests */,
+				C9C769C81EAB2928000F2C35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C769C81EAB2928000F2C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C769C71EAB2928000F2C35 /* 天天学英语.app */,
+				C9C769E01EAB2928000F2C35 /* 天天学英语Tests.xctest */,
+				C9C769EB1EAB2928000F2C35 /* 天天学英语UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C769C91EAB2928000F2C35 /* 天天学英语 */ = {
+			isa = PBXGroup;
+			children = (
+				C9C76A441EAB3A95000F2C35 /* YYModel */,
+				C9C769FD1EAB2A62000F2C35 /* word */,
+				C9C769CD1EAB2928000F2C35 /* AppDelegate.h */,
+				C9C769CE1EAB2928000F2C35 /* AppDelegate.m */,
+				C9C769D01EAB2928000F2C35 /* ViewController.h */,
+				C9C769D11EAB2928000F2C35 /* ViewController.m */,
+				C9C76A3F1EAB3140000F2C35 /* WeekViewController.h */,
+				C9C76A401EAB3140000F2C35 /* WeekViewController.m */,
+				C9C76A411EAB3140000F2C35 /* WeekViewController.xib */,
+				C9C76A3A1EAB2A80000F2C35 /* WordViewController.h */,
+				C9C76A3B1EAB2A80000F2C35 /* WordViewController.m */,
+				C9C76A3C1EAB2A80000F2C35 /* WordViewController.xib */,
+				C9C76A511EAB3AB1000F2C35 /* WordModel.h */,
+				C9C76A521EAB3AB1000F2C35 /* WordModel.m */,
+				C9C769D31EAB2928000F2C35 /* Main.storyboard */,
+				C9C76A541EAB3DA0000F2C35 /* LyNavigationController.h */,
+				C9C76A551EAB3DA0000F2C35 /* LyNavigationController.m */,
+				C9C76A571EAB3DBE000F2C35 /* UIBarButtonItem+Extension.h */,
+				C9C76A581EAB3DBE000F2C35 /* UIBarButtonItem+Extension.m */,
+				C9C76A5A1EAB3DD5000F2C35 /* UIImage+Extension.h */,
+				C9C76A5B1EAB3DD5000F2C35 /* UIImage+Extension.m */,
+				C9C76A5D1EAB3E5F000F2C35 /* UIView+YP.h */,
+				C9C76A5E1EAB3E5F000F2C35 /* UIView+YP.m */,
+				C9C76A601EAB3EBB000F2C35 /* UINavigationController+FDFullscreenPopGesture.h */,
+				C9C76A611EAB3EBB000F2C35 /* UINavigationController+FDFullscreenPopGesture.m */,
+				C9C769D61EAB2928000F2C35 /* Assets.xcassets */,
+				C9C769D81EAB2928000F2C35 /* LaunchScreen.storyboard */,
+				C9C769DB1EAB2928000F2C35 /* Info.plist */,
+				C9C769CA1EAB2928000F2C35 /* Supporting Files */,
+			);
+			path = "天天学英语";
+			sourceTree = "<group>";
+		};
+		C9C769CA1EAB2928000F2C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C769CB1EAB2928000F2C35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C769E31EAB2928000F2C35 /* 天天学英语Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C769E41EAB2928000F2C35 /* _____Tests.m */,
+				C9C769E61EAB2928000F2C35 /* Info.plist */,
+			);
+			path = "天天学英语Tests";
+			sourceTree = "<group>";
+		};
+		C9C769EE1EAB2928000F2C35 /* 天天学英语UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C769EF1EAB2928000F2C35 /* _____UITests.m */,
+				C9C769F11EAB2928000F2C35 /* Info.plist */,
+			);
+			path = "天天学英语UITests";
+			sourceTree = "<group>";
+		};
+		C9C769FD1EAB2A62000F2C35 /* word */ = {
+			isa = PBXGroup;
+			children = (
+				C9C769FE1EAB2A62000F2C35 /* eng1.json */,
+				C9C769FF1EAB2A62000F2C35 /* eng10.json */,
+				C9C76A001EAB2A62000F2C35 /* eng11.json */,
+				C9C76A011EAB2A62000F2C35 /* eng12.json */,
+				C9C76A021EAB2A62000F2C35 /* eng13.json */,
+				C9C76A031EAB2A62000F2C35 /* eng14.json */,
+				C9C76A041EAB2A62000F2C35 /* eng15.json */,
+				C9C76A051EAB2A62000F2C35 /* eng16.json */,
+				C9C76A061EAB2A62000F2C35 /* eng17.json */,
+				C9C76A071EAB2A62000F2C35 /* eng18.json */,
+				C9C76A081EAB2A62000F2C35 /* eng19.json */,
+				C9C76A091EAB2A62000F2C35 /* eng2.json */,
+				C9C76A0A1EAB2A62000F2C35 /* eng20.json */,
+				C9C76A0B1EAB2A62000F2C35 /* eng21.json */,
+				C9C76A0C1EAB2A62000F2C35 /* eng22.json */,
+				C9C76A0D1EAB2A62000F2C35 /* eng23.json */,
+				C9C76A0E1EAB2A62000F2C35 /* eng24.json */,
+				C9C76A0F1EAB2A62000F2C35 /* eng25.json */,
+				C9C76A101EAB2A62000F2C35 /* eng26.json */,
+				C9C76A111EAB2A62000F2C35 /* eng27.json */,
+				C9C76A121EAB2A62000F2C35 /* eng28.json */,
+				C9C76A131EAB2A62000F2C35 /* eng29.json */,
+				C9C76A141EAB2A62000F2C35 /* eng3.json */,
+				C9C76A151EAB2A62000F2C35 /* eng30.json */,
+				C9C76A161EAB2A62000F2C35 /* eng4.json */,
+				C9C76A171EAB2A62000F2C35 /* eng5.json */,
+				C9C76A181EAB2A62000F2C35 /* eng6.json */,
+				C9C76A191EAB2A62000F2C35 /* eng7.json */,
+				C9C76A1A1EAB2A62000F2C35 /* eng8.json */,
+				C9C76A1B1EAB2A62000F2C35 /* eng9.json */,
+			);
+			path = word;
+			sourceTree = "<group>";
+		};
+		C9C76A441EAB3A95000F2C35 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9C76A451EAB3A95000F2C35 /* LICENSE */,
+				C9C76A461EAB3A95000F2C35 /* README.md */,
+				C9C76A471EAB3A95000F2C35 /* YYModel */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		C9C76A471EAB3A95000F2C35 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9C76A481EAB3A95000F2C35 /* NSObject+YYModel.h */,
+				C9C76A491EAB3A95000F2C35 /* NSObject+YYModel.m */,
+				C9C76A4A1EAB3A95000F2C35 /* YYClassInfo.h */,
+				C9C76A4B1EAB3A95000F2C35 /* YYClassInfo.m */,
+				C9C76A4C1EAB3A95000F2C35 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C769C61EAB2928000F2C35 /* 天天学英语 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C769F41EAB2928000F2C35 /* Build configuration list for PBXNativeTarget "天天学英语" */;
+			buildPhases = (
+				C9C769C31EAB2928000F2C35 /* Sources */,
+				C9C769C41EAB2928000F2C35 /* Frameworks */,
+				C9C769C51EAB2928000F2C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "天天学英语";
+			productName = "天天学英语";
+			productReference = C9C769C71EAB2928000F2C35 /* 天天学英语.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C769DF1EAB2928000F2C35 /* 天天学英语Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C769F71EAB2928000F2C35 /* Build configuration list for PBXNativeTarget "天天学英语Tests" */;
+			buildPhases = (
+				C9C769DC1EAB2928000F2C35 /* Sources */,
+				C9C769DD1EAB2928000F2C35 /* Frameworks */,
+				C9C769DE1EAB2928000F2C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C769E21EAB2928000F2C35 /* PBXTargetDependency */,
+			);
+			name = "天天学英语Tests";
+			productName = "天天学英语Tests";
+			productReference = C9C769E01EAB2928000F2C35 /* 天天学英语Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9C769EA1EAB2928000F2C35 /* 天天学英语UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C769FA1EAB2928000F2C35 /* Build configuration list for PBXNativeTarget "天天学英语UITests" */;
+			buildPhases = (
+				C9C769E71EAB2928000F2C35 /* Sources */,
+				C9C769E81EAB2928000F2C35 /* Frameworks */,
+				C9C769E91EAB2928000F2C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C769ED1EAB2928000F2C35 /* PBXTargetDependency */,
+			);
+			name = "天天学英语UITests";
+			productName = "天天学英语UITests";
+			productReference = C9C769EB1EAB2928000F2C35 /* 天天学英语UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C769BF1EAB2928000F2C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ceshi;
+				TargetAttributes = {
+					C9C769C61EAB2928000F2C35 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = H2NL7KCC6J;
+						ProvisioningStyle = Automatic;
+					};
+					C9C769DF1EAB2928000F2C35 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = H2NL7KCC6J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9C769C61EAB2928000F2C35;
+					};
+					C9C769EA1EAB2928000F2C35 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = H2NL7KCC6J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9C769C61EAB2928000F2C35;
+					};
+				};
+			};
+			buildConfigurationList = C9C769C21EAB2928000F2C35 /* Build configuration list for PBXProject "天天学英语" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C769BE1EAB2928000F2C35;
+			productRefGroup = C9C769C81EAB2928000F2C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C769C61EAB2928000F2C35 /* 天天学英语 */,
+				C9C769DF1EAB2928000F2C35 /* 天天学英语Tests */,
+				C9C769EA1EAB2928000F2C35 /* 天天学英语UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C769C51EAB2928000F2C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C76A2B1EAB2A62000F2C35 /* eng23.json in Resources */,
+				C9C76A201EAB2A62000F2C35 /* eng13.json in Resources */,
+				C9C76A391EAB2A62000F2C35 /* eng9.json in Resources */,
+				C9C76A211EAB2A62000F2C35 /* eng14.json in Resources */,
+				C9C76A431EAB3140000F2C35 /* WeekViewController.xib in Resources */,
+				C9C76A381EAB2A62000F2C35 /* eng8.json in Resources */,
+				C9C76A4D1EAB3A95000F2C35 /* LICENSE in Resources */,
+				C9C76A341EAB2A62000F2C35 /* eng4.json in Resources */,
+				C9C76A251EAB2A62000F2C35 /* eng18.json in Resources */,
+				C9C76A361EAB2A62000F2C35 /* eng6.json in Resources */,
+				C9C76A2E1EAB2A62000F2C35 /* eng26.json in Resources */,
+				C9C76A351EAB2A62000F2C35 /* eng5.json in Resources */,
+				C9C76A1C1EAB2A62000F2C35 /* eng1.json in Resources */,
+				C9C76A231EAB2A62000F2C35 /* eng16.json in Resources */,
+				C9C76A2C1EAB2A62000F2C35 /* eng24.json in Resources */,
+				C9C76A271EAB2A62000F2C35 /* eng2.json in Resources */,
+				C9C76A2D1EAB2A62000F2C35 /* eng25.json in Resources */,
+				C9C76A241EAB2A62000F2C35 /* eng17.json in Resources */,
+				C9C76A1D1EAB2A62000F2C35 /* eng10.json in Resources */,
+				C9C76A371EAB2A62000F2C35 /* eng7.json in Resources */,
+				C9C76A321EAB2A62000F2C35 /* eng3.json in Resources */,
+				C9C769DA1EAB2928000F2C35 /* LaunchScreen.storyboard in Resources */,
+				C9C769D71EAB2928000F2C35 /* Assets.xcassets in Resources */,
+				C9C76A301EAB2A62000F2C35 /* eng28.json in Resources */,
+				C9C76A221EAB2A62000F2C35 /* eng15.json in Resources */,
+				C9C76A291EAB2A62000F2C35 /* eng21.json in Resources */,
+				C9C76A331EAB2A62000F2C35 /* eng30.json in Resources */,
+				C9C76A2F1EAB2A62000F2C35 /* eng27.json in Resources */,
+				C9C76A1E1EAB2A62000F2C35 /* eng11.json in Resources */,
+				C9C76A1F1EAB2A62000F2C35 /* eng12.json in Resources */,
+				C9C76A3E1EAB2A80000F2C35 /* WordViewController.xib in Resources */,
+				C9C76A2A1EAB2A62000F2C35 /* eng22.json in Resources */,
+				C9C76A311EAB2A62000F2C35 /* eng29.json in Resources */,
+				C9C76A261EAB2A62000F2C35 /* eng19.json in Resources */,
+				C9C76A281EAB2A62000F2C35 /* eng20.json in Resources */,
+				C9C769D51EAB2928000F2C35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C769DE1EAB2928000F2C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C769E91EAB2928000F2C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C769C31EAB2928000F2C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C76A4E1EAB3A95000F2C35 /* README.md in Sources */,
+				C9C769D21EAB2928000F2C35 /* ViewController.m in Sources */,
+				C9C76A4F1EAB3A95000F2C35 /* NSObject+YYModel.m in Sources */,
+				C9C76A5C1EAB3DD5000F2C35 /* UIImage+Extension.m in Sources */,
+				C9C769CF1EAB2928000F2C35 /* AppDelegate.m in Sources */,
+				C9C76A5F1EAB3E5F000F2C35 /* UIView+YP.m in Sources */,
+				C9C76A561EAB3DA0000F2C35 /* LyNavigationController.m in Sources */,
+				C9C76A501EAB3A95000F2C35 /* YYClassInfo.m in Sources */,
+				C9C76A591EAB3DBE000F2C35 /* UIBarButtonItem+Extension.m in Sources */,
+				C9C76A3D1EAB2A80000F2C35 /* WordViewController.m in Sources */,
+				C9C769CC1EAB2928000F2C35 /* main.m in Sources */,
+				C9C76A531EAB3AB1000F2C35 /* WordModel.m in Sources */,
+				C9C76A621EAB3EBB000F2C35 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				C9C76A421EAB3140000F2C35 /* WeekViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C769DC1EAB2928000F2C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C769E51EAB2928000F2C35 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C769E71EAB2928000F2C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C769F01EAB2928000F2C35 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C769E21EAB2928000F2C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C769C61EAB2928000F2C35 /* 天天学英语 */;
+			targetProxy = C9C769E11EAB2928000F2C35 /* PBXContainerItemProxy */;
+		};
+		C9C769ED1EAB2928000F2C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C769C61EAB2928000F2C35 /* 天天学英语 */;
+			targetProxy = C9C769EC1EAB2928000F2C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9C769D31EAB2928000F2C35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C769D41EAB2928000F2C35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C769D81EAB2928000F2C35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C769D91EAB2928000F2C35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C769F21EAB2928000F2C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9C769F31EAB2928000F2C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C769F51EAB2928000F2C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2NL7KCC6J;
+				INFOPLIST_FILE = "天天学英语/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DBC.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9C769F61EAB2928000F2C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2NL7KCC6J;
+				INFOPLIST_FILE = "天天学英语/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DBC.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9C769F81EAB2928000F2C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2NL7KCC6J;
+				INFOPLIST_FILE = "天天学英语Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DBC.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/天天学英语.app/天天学英语";
+			};
+			name = Debug;
+		};
+		C9C769F91EAB2928000F2C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2NL7KCC6J;
+				INFOPLIST_FILE = "天天学英语Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DBC.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/天天学英语.app/天天学英语";
+			};
+			name = Release;
+		};
+		C9C769FB1EAB2928000F2C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H2NL7KCC6J;
+				INFOPLIST_FILE = "天天学英语UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DBC.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "天天学英语";
+			};
+			name = Debug;
+		};
+		C9C769FC1EAB2928000F2C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H2NL7KCC6J;
+				INFOPLIST_FILE = "天天学英语UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DBC.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "天天学英语";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C769C21EAB2928000F2C35 /* Build configuration list for PBXProject "天天学英语" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C769F21EAB2928000F2C35 /* Debug */,
+				C9C769F31EAB2928000F2C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C769F41EAB2928000F2C35 /* Build configuration list for PBXNativeTarget "天天学英语" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C769F51EAB2928000F2C35 /* Debug */,
+				C9C769F61EAB2928000F2C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9C769F71EAB2928000F2C35 /* Build configuration list for PBXNativeTarget "天天学英语Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C769F81EAB2928000F2C35 /* Debug */,
+				C9C769F91EAB2928000F2C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9C769FA1EAB2928000F2C35 /* Build configuration list for PBXNativeTarget "天天学英语UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C769FB1EAB2928000F2C35 /* Debug */,
+				C9C769FC1EAB2928000F2C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C769BF1EAB2928000F2C35 /* Project object */;
+}
